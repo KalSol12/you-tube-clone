@@ -1,0 +1,52 @@
+.sidebar{
+    position: fixed;
+    background-color: white;
+    top: 55px;
+    bottom: 5;
+    left: 0;
+    
+    width: 66px;
+
+
+}
+@media (min-width:1200px) {
+    .sidebar{
+        width: 100px;
+    }
+    
+}
+ @media (min-width:1200px) {
+    .side-link{
+        
+    display: flex;
+
+
+    
+    }
+    
+ } 
+    
+
+
+
+.side-link{
+  
+    height: 68px;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.side-link:hover{
+    background-color: rgb(196, 192, 192);
+    cursor: pointer;
+}
+.side-link img{
+    width: 25px;
+}
+.side-link div{
+    font-size: 10px;
+}
